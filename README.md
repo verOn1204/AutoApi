@@ -1,4 +1,4 @@
-# AutoApi v6.2.1 (2021-2-17) ———— E5自动续期
+# AutoApi v6.3 (2021-2-18) ———— E5自动续期
 AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~~、~~AutoApiS(v4.0)~~、~~AutoApiP(v5.0)~~
 
 ## 说明 ##
@@ -17,7 +17,7 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
 ## 步骤 ##
 * 准备工具：
-   * E5开发者账号（**非个人/私人账号**）
+   * E5开发者账号（**即onmicrosoft后缀账号，非个人/私人账号**）
        * 管理员号 ———— 必选 
        * 子号 ———— 可选 （不清楚微软是否会统计子号的活跃度，想弄可选择性补充运行）    
    * 教程图片看不到请科学上网
@@ -108,6 +108,11 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
      EMAIL
      ```shell
      收件邮箱 (自动发送天气邮件要用到)
+     ```
+     
+     REDIRECT_URL（这个不用设置，只是方便自定义人士选用）
+     ```shell
+     接受自定义重定向url，如果不想用微软提供的重定向uri(https://login.microsoftonline.com/common/oauth2/nativeclient)，可在此自定义
      ```
 
 
